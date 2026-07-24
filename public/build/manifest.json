@@ -1,0 +1,37 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BTTkr8yj.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/fonts/Tajawal-Bold.ttf": {
+    "file": "assets/Tajawal-Bold-N9U1XsUl.ttf",
+    "src": "resources/fonts/Tajawal-Bold.ttf"
+  },
+  "resources/fonts/Tajawal-Medium.ttf": {
+    "file": "assets/Tajawal-Medium-xUoGaSp_.ttf",
+    "src": "resources/fonts/Tajawal-Medium.ttf"
+  },
+  "resources/fonts/Tajawal-Regular.ttf": {
+    "file": "assets/Tajawal-Regular-lomV3N7R.ttf",
+    "src": "resources/fonts/Tajawal-Regular.ttf"
+  },
+  "resources/images/government/pattern-dark.png": {
+    "file": "assets/pattern-dark-BZ5kx57B.png",
+    "src": "resources/images/government/pattern-dark.png"
+  },
+  "resources/images/government/pattern.png": {
+    "file": "assets/pattern-CLeBIAoo.png",
+    "src": "resources/images/government/pattern.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-GrdTfI-y.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
