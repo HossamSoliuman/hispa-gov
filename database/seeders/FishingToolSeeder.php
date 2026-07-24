@@ -12,6 +12,18 @@ class FishingToolSeeder extends Seeder
      */
     public function run(): void
     {
-        FishingTool::factory()->count(3)->create();
+        $fishingTools = [
+            ['name' => config('government.fishing_tool_options.0'), 'status' => 'active'],
+            ['name' => config('government.fishing_tool_options.1'), 'status' => 'active'],
+            ['name' => config('government.fishing_tool_options.2'), 'status' => 'active'],
+            ['name' => config('government.fishing_tool_options.3'), 'status' => 'inactive'],
+        ];
+
+        foreach ($fishingTools as $fishingTool) {
+            FishingTool::query()->updateOrCreate(
+                ['name' => $fishingTool['name']],
+                ['status' => $fishingTool['status']],
+            );
+        }
     }
 }

@@ -15,13 +15,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-
         User::query()->updateOrCreate([
             'email' => config('government.user.email'),
         ], [
             'name' => config('government.user.name'),
             'password' => config('government.user.password'),
+        ]);
+
+        $this->call([
+            FishingToolSeeder::class,
+            SeasonSeeder::class,
         ]);
     }
 }
