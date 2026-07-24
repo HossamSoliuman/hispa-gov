@@ -18,8 +18,4 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
             cd public_html/gov
-            git pull origin main
-            composer install 
-            npm install
-            npm run build
-            php artisan migrate 
+            git pull origin main 
